@@ -1,7 +1,19 @@
 <resources>
-    <string name="app_name">Lab1</string>
+    <string name="app_name">Lab4</string>
     <string name="hello_world">Hello World!</string>
     <string name="ButtonText">I\'m a button</string>
+    <string name="login_text">Login</string>
 
+    <string name="password_text">Password</string>
+    <string name="what">What does it do?</string>
+    <string name="checkBox">Check Box</string>
+    <string name="radio_button">Radio Button</string>
+    <string name="dialog_message">Finishing activity</string>
+    <string name="dialog_title">Finish</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="login">Login</string>
+    <string name="chat">Start Chat</string>
+    <string name="send">Send</string>
 </resources>
 
