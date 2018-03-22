@@ -11,20 +11,19 @@
         android:id="@+id/textview_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login_text"/>
+        android:text="@string/login_text" />
 
     <EditText
         android:id="@+id/edittext_login"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"/>
-       // android:hint="@string/login_hint"
+        android:layout_height="wrap_content" />
+    // android:hint="@string/login_hint"
 
     <TextView
         android:id="@+id/textview_password"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/password_text"/>
+        android:text="@string/password_text" />
 
 
     <EditText
@@ -32,12 +31,12 @@
 
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/flag"/>
+        android:src="@drawable/flag" />
 
     <Button
         android:id="@+id/button1"

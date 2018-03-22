@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lab4</string>
+    <string name="app_name">Lab5</string>
     <string name="hello_world">Bonjour!</string>
     <string name="ButtonText">Je suis un button</string>
     <string name="login_hint">login name</string>
     <string name="password_text">le password</string>
-    <string name="what">Ques que c'est?</string>
+    <string name="what">Ques que c\'est?</string>
     <string name="checkBox">le check Box</string>
     <string name="radio_button">le radio Button</string>
     <string name="login_text">le login</string>
