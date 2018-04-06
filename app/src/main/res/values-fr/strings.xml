@@ -16,4 +16,10 @@
     <string name="login">S\'identifier</string>
     <string name="chat">Chat</string>
     <string name="send">Send</string>
+    <string name="weather_button">Weather</string>
+    <string name="current">Current:</string>
+    <string name="wind_speed">Wind speed:</string>
+    <string name="min">Min:</string>
+    <string name="max">Max:</string>
+    <string name="ottawa_weather">Ottawa Weather</string>
 </resources>

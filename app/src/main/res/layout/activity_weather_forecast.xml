@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_weather_forecast"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.alex.androidlabs.WeatherForecast">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ottawaWeather"
+        android:layout_alignParentTop= "true"
+        android:text="@string/ottawa_weather"
+        android:textSize="32sp"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/weatherImage"
+        android:layout_below="@+id/ottawaWeather"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weatherCurrentTemp"
+        android:layout_below="@+id/weatherImage"
+        android:text="@string/current"
+        android:gravity="center_horizontal" />
+        <!--android:textSize="32sp"-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weatherWind"
+        android:text="@string/wind_speed"
+        android:layout_below="@+id/weatherMaxTemp"/>
+        <!--android:textSize="32sp"-->
+
+
+
+    <View
+        android:id="@+id/fakeView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weatherMinTemp"
+        android:layout_below="@+id/weatherCurrentTemp"
+        android:layout_alignEnd="@+id/fakeView"
+        android:layout_alignParentStart="true"
+        android:text="@string/min" />
+        <!--android:textSize="32sp"-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weatherMaxTemp"
+        android:text="@string/max"
+        android:layout_below="@+id/weatherCurrentTemp"
+        android:layout_alignStart="@+id/fakeView"
+        android:layout_alignParentEnd="true"
+        />
+        <!--android:textSize="32sp"-->
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_alignStart="@+id/fakeView"
+        android:id="@+id/weatherProgress"
+        android:layout_below="@+id/weatherMaxTemp"/>
+
+</RelativeLayout>
