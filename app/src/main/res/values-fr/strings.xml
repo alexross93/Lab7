@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lab5</string>
+    <string name="app_name">Lab7</string>
     <string name="hello_world">Bonjour!</string>
     <string name="ButtonText">Je suis un button</string>
     <string name="login_hint">login name</string>
@@ -22,4 +22,7 @@
     <string name="min">Min:</string>
     <string name="max">Max:</string>
     <string name="ottawa_weather">Ottawa Weather</string>
+    <string name="delete_this_message">Delete this Message</string>
+    <string name="id">ID=</string>
+    <string name="message_here">message here</string>
 </resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lab6</string>
+    <string name="app_name">Lab7</string>
     <string name="hello_world">Hello World!</string>
     <string name="ButtonText">I\'m a button</string>
     <string name="login_text">Login</string>
@@ -22,5 +22,8 @@
     <string name="min">Min:</string>
     <string name="max">Max:</string>
     <string name="ottawa_weather">Ottawa Weather</string>
+    <string name="delete_this_message">Delete this Message</string>
+    <string name="id">ID=</string>
+    <string name="message_here">MessageHere</string>
 </resources>
 
